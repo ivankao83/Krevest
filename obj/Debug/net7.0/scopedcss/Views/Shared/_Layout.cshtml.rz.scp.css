@@ -17,6 +17,15 @@ a[b-ozkxum15rw] {
   border-color: #1861ac;
 }
 
+.btn-account[b-ozkxum15rw] {
+    position: absolute;
+    transition: .5s ease;
+    top: 18%;
+    left: 96%;
+    font-size: 25px;
+}
+
+
 .nav-pills .nav-link.active[b-ozkxum15rw], .nav-pills .show > .nav-link[b-ozkxum15rw] {
   color: #fff;
   background-color: #1b6ec2;

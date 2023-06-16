@@ -15,10 +15,12 @@
     <None Remove="Views\Dashboard\" />
     <None Remove="Views\OA\" />
     <None Remove="Views\Wholesale\" />
+    <None Remove="Views\Account\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\Dashboard\" />
     <Folder Include="Views\OA\" />
     <Folder Include="Views\Wholesale\" />
+    <Folder Include="Views\Account\" />
   </ItemGroup>
 </Project>
