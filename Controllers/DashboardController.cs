@@ -23,5 +23,3 @@ namespace Krevest.Controllers
 
     }
 }
-
-//.

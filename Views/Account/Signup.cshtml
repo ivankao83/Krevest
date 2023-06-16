@@ -4,6 +4,35 @@
 
 <h1>Signup</h1>
 
-@section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
-}
+
+<form>
+    <div class="mb-3">
+        <label for="AccountName" class="form-label">Name</label>
+        <input type="text" class="form-control" id="AccountName">
+
+    </div>
+    <div class="mb-3">
+        <label for="AccountEmail" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    </div>
+    <div class="mb-3">
+        <label for="AccountPassword1" class="form-label">Password</label>
+        <input type="password" class="form-control" id="AccountPassword1">
+    </div>
+    <div class="mb-3">
+        <label for="AccountPassword2" class="form-label">Confirm Password</label>
+        <input type="password" class="form-control" id="AccountPassword2">
+    </div>
+
+
+    <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Save Log In</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+    <a href="/Account/Signup">
+        <botton type="submit" class="btn btn-primary">Sign-Up</botton>
+    </a>
+</form>
+
